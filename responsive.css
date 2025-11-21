@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+
+    .content {
+        max-width: 100%;
+        padding: 0 1em;
+    }
+
+    header {
+        padding: 4em 0 2em 0;
+    }
+
+    footer {
+        padding: 2em 0;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .thumbnails > div {
+        width: 100%;
+        padding-left: 0;
+    }
+    body {
+        font-size: 12pt;
+    }
+}
